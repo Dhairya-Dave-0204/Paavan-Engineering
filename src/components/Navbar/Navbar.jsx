@@ -27,7 +27,7 @@ export default function Navbar() {
   const navLinkClass = ({ isActive }) =>
     `font-body  tracking-wide transition-colors duration-500 ${
       isActive
-        ? "text-primary"
+        ? "text-primary font-medium"
         : "text-dark hover:text-primary"
     }`;
 
