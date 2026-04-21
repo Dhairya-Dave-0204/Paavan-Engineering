@@ -1,1 +1,77 @@
 @import "tailwindcss";
+
+@theme {
+  --font-heading: "Sora", sans-serif;
+  --font-body: "Inter", sans-serif;
+
+  --color-primary: #e4721b;
+  --color-primary-light: #f2a365;
+
+  --color-dark: #22211d;
+  --color-dark-deep: #121212;
+
+  --color-gray: #6b6b6b;
+  --color-background: #fdfffc;
+
+  --gradient-2tone-1: linear-gradient(135deg, #22211d, #121212);
+  --gradient-2tone-2: linear-gradient(135deg, #e4721b, #f2a365);
+  --gradient-2tone-3: linear-gradient(135deg, #22211d, #6b6b6b);
+  --gradient-2tone-4: linear-gradient(135deg, #121212, #e4721b);
+  --gradient-2tone-5: linear-gradient(135deg, #6b6b6b, #fdfffc);
+
+  --gradient-3tone-1: linear-gradient(135deg, #22211d, #121212, #e4721b);
+  --gradient-3tone-2: linear-gradient(135deg, #121212, #22211d, #6b6b6b);
+  --gradient-3tone-3: linear-gradient(135deg, #e4721b, #f2a365, #fdfffc);
+  --gradient-3tone-4: linear-gradient(135deg, #22211d, #6b6b6b, #fdfffc);
+  --gradient-3tone-5: linear-gradient(135deg, #121212, #e4721b, #f2a365);
+}
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background: var(--color-background);
+    color: var(--color-dark);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    background: var(--color-primary);
+    color: white;
+  }
+}
+
+@layer utilities {
+  .font-heading { font-family: var(--font-heading); }
+  .font-body { font-family: var(--font-body); }
+
+  .text-primary { color: var(--color-primary); }
+  .bg-primary { background-color: var(--color-primary); }
+
+  .text-dark { color: var(--color-dark); }
+  .bg-dark { background-color: var(--color-dark); }
+
+  .text-gray-custom { color: var(--color-gray); }
+
+  .bg2tone1 { background: var(--gradient-2tone-1); }
+  .bg2tone2 { background: var(--gradient-2tone-2); }
+  .bg2tone3 { background: var(--gradient-2tone-3); }
+  .bg2tone4 { background: var(--gradient-2tone-4); }
+  .bg2tone5 { background: var(--gradient-2tone-5); }
+
+  .bg3tone1 { background: var(--gradient-3tone-1); }
+  .bg3tone2 { background: var(--gradient-3tone-2); }
+  .bg3tone3 { background: var(--gradient-3tone-3); }
+  .bg3tone4 { background: var(--gradient-3tone-4); }
+  .bg3tone5 { background: var(--gradient-3tone-5); }
+}
