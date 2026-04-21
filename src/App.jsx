@@ -1,11 +1,18 @@
-import './App.css'
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import { Home } from "./pages/page_index";
+import { Navbar, Footer } from "./components/component_index";
 
 function App() {
   return (
     <>
-      <h1 className='text-5xl text-blue-600'>HEllo</h1>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={ <Home /> } />
+      </Routes>
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
