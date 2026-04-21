@@ -33,10 +33,10 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed top-5 left-0 w-full z-50 transition-all duration-300 ${
+      className={`fixed top-0 py-2 left-0 w-full z-50 transition-all duration-300 ${
         isScrolled
           ? "bg-background shadow-md"
-          : "bg-transparent"
+          : "bg-background/35 backdrop-blur-md"
       }`}
     >
       <div className="px-6 mx-auto max-w-7xl lg:px-10">

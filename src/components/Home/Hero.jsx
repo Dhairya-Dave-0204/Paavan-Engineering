@@ -1,9 +1,62 @@
-import React from 'react'
+import { Link } from "react-router-dom";
+import { HeroBg } from "../../assets/assets";
 
-function Hero() {
+export default function Hero() {
   return (
-    <div>Hero</div>
-  )
-}
+    <section className="relative flex items-center min-h-screen overflow-hidden pt-28 lg:pt-36">
+      {/* Background Layer */}
+      <div className="absolute inset-0 -z-10">
+        <img
+          src={HeroBg}
+          alt="Industrial Machinery"
+          className="object-cover w-full h-full"
+        />
 
-export default Hero
+        {/* DARK BASE OVERLAY */}
+        <div className="absolute inset-0 bg-black/60"></div>
+
+        {/* SUBTLE INDUSTRIAL GRADIENT */}
+        <div className="absolute inset-0 bg3tone1 opacity-30"></div>
+      </div>
+
+      {/* Content */}
+      <div className="w-full px-6 mx-auto max-w-7xl lg:px-10">
+        <div className="max-w-3xl">
+          {/* Tagline */}
+          <p className="mb-4 text-sm tracking-wide font-body text-primary">
+            30+ Years of Engineering Excellence
+          </p>
+
+          {/* Heading */}
+          <h1 className="text-4xl font-semibold leading-tight tracking-tight text-white font-heading sm:text-5xl lg:text-6xl">
+            Complete Solutions for Bright Bar Processing
+          </h1>
+
+          {/* Description */}
+          <p className="max-w-xl mt-6 text-base leading-relaxed text-gray-200 font-body sm:text-lg">
+            Precision-engineered machinery, industrial chains, and carbide
+            components designed for durability, performance, and long-term
+            reliability.
+          </p>
+
+          {/* CTA Buttons */}
+          <div className="flex flex-col gap-4 mt-8 sm:flex-row">
+            <Link
+              to="/contact"
+              className="px-6 py-3 text-sm tracking-wide text-center text-white transition duration-300 bg-primary font-body hover:opacity-90"
+            >
+              Request a Quote
+            </Link>
+
+            <Link
+              to="/products"
+              className="px-6 py-3 text-sm tracking-wide text-center text-white transition duration-300 border border-white font-body hover:bg-white hover:text-dark"
+            >
+              View Products
+            </Link>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
