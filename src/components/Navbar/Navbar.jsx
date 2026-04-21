@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { NavLink, Link } from "react-router-dom";
-import { PaavanLogo } from "../../assets/assets"
+import { PaavanLogoTransparent } from "../../assets/assets"
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -45,7 +45,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link to="/" className="flex items-center cursor-pointer">
             <img
-              src={PaavanLogo} // <-- Add logo path
+              src={PaavanLogoTransparent} // <-- Add logo path
               alt="Paavan Engineering"
               className="w-48 sm:w-56"
             />

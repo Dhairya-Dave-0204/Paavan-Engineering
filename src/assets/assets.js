@@ -10,6 +10,7 @@ import Machine7 from "./Machine7.jpeg"
 import Machine8 from "./Machine8.jpeg"
 import Machine9 from "./Machine9.jpeg"
 import PaavanLogo from "./PaavanLogo.png"
+import PaavanLogoTransparent from "./PaavanLogoTransparent.png"
 
 export {
     Coils1,
@@ -24,4 +25,5 @@ export {
     Machine8,
     Machine9,
     PaavanLogo,
+    PaavanLogoTransparent,
 }
