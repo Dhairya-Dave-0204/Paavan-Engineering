@@ -38,9 +38,9 @@ export default function Infrastructure() {
           {images.map((item, index) => (
             <div key={index} className="overflow-hidden group">
               <img
-                src={item.src} // <-- add real images
+                src={item.src}
                 alt={item.alt}
-                className="w-full h-[260px] object-cover transition duration-500 group-hover:scale-105"
+                className="object-cover w-full transition duration-500 h-65 group-hover:scale-105"
               />
             </div>
           ))}
