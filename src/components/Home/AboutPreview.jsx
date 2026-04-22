@@ -63,7 +63,7 @@ export default function AboutPreview() {
             <div className="mt-8">
               <Link
                 to="/about"
-                className="inline-block px-6 py-3 text-sm text-white transition duration-300 font-body bg-primary hover:opacity-90"
+                className="inline-block px-6 py-3 text-sm text-white transition duration-300 font-body bg-primary hover:opacity-90 image-filter"
               >
                 Learn More
               </Link>

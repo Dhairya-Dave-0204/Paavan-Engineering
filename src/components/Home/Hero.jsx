@@ -9,7 +9,7 @@ export default function Hero() {
         <img
           src={HeroBg}
           alt="Industrial Machinery"
-          className="object-cover w-full h-full"
+          className="object-cover w-full h-full image-filter"
         />
 
         {/* DARK BASE OVERLAY */}
