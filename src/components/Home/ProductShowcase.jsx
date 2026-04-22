@@ -55,7 +55,7 @@ export default function ProductShowcase() {
   ];
 
   return (
-    <section className="py-20 lg:py-28 bg-background ">
+    <section className="py-20 lg:py-24 bg-background ">
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         {/* Heading */}
         <div className="max-w-2xl mb-12">

@@ -24,6 +24,7 @@ import Polishing from "./Polishing.png";
 import PushPointing from "./PushPointing.png";
 import Straightening from "./Straightening.png";
 import Gearbox from "./Gearbox.png";
+import Sprocket from "./Sprocket.png";
 
 export {
   Coils1,
@@ -52,4 +53,5 @@ export {
   Straightening,
   PushPointing,
   Gearbox,
+  Sprocket,
 };

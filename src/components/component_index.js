@@ -4,6 +4,7 @@ import Hero from "./Home/Hero";
 import Capabilities from "./Home/Capabilities";
 import AboutPreview from "./Home/AboutPreview";
 import ProductShowcase from "./Home/ProductShowcase";
+import KeyProducts from "./Home/KeyProducts";
 
 export {
     Navbar,
@@ -12,4 +13,5 @@ export {
     Capabilities,
     AboutPreview,
     ProductShowcase,
+    KeyProducts,
 }

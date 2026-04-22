@@ -1,5 +1,11 @@
-import React from 'react'
-import { Hero, Capabilities, AboutPreview, ProductShowcase } from "../../components/component_index"
+import React from "react";
+import {
+  Hero,
+  Capabilities,
+  AboutPreview,
+  ProductShowcase,
+  KeyProducts,
+} from "../../components/component_index";
 
 function Home() {
   return (
@@ -8,8 +14,9 @@ function Home() {
       <Capabilities />
       <AboutPreview />
       <ProductShowcase />
+      <KeyProducts />
     </>
-  )
+  );
 }
 
-export default Home
+export default Home;
