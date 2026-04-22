@@ -1,9 +1,7 @@
 export default function ContactHero() {
   return (
     <section className="relative pt-32 pb-20 text-center lg:pt-40 lg:pb-24 bg-background">
-
       <div className="max-w-4xl px-6 mx-auto lg:px-10">
-
         <p className="mb-4 text-sm tracking-wide font-body text-primary">
           Contact Us
         </p>
@@ -21,8 +19,9 @@ export default function ContactHero() {
         <p className="mt-6 text-sm tracking-wide text-gray-400 font-body">
           Fill out the form below and we'll get back to you
         </p>
-
       </div>
+
+      <hr className="mx-auto mt-20 text-gray-200 max-w-7xl" />
     </section>
   );
 }
