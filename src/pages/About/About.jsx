@@ -1,14 +1,20 @@
-import React from 'react'
-import { AboutHero, CompanyOverview, CoreValues }  from "../../components/component_index" 
+import React from "react";
+import {
+  AboutHero,
+  CompanyOverview,
+  CoreValues,
+  Infrastructure,
+} from "../../components/component_index";
 
 function About() {
   return (
     <>
-        <AboutHero />
-        <CompanyOverview />
-        <CoreValues />
+      <AboutHero />
+      <CompanyOverview />
+      <CoreValues />
+      <Infrastructure />
     </>
-  )
+  );
 }
 
-export default About
+export default About;

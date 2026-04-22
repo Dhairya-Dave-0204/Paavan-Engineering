@@ -11,6 +11,7 @@ import FinalCTA from "./Home/FinalCTA";
 import AboutHero from "./About/AboutHero";
 import CompanyOverview from "./About/CompanyOverview";
 import CoreValues from "./About/CoreValues";
+import Infrastructure from "./About/Infrastructure";
 
 export {
     Navbar,
@@ -25,4 +26,5 @@ export {
     AboutHero,
     CompanyOverview,
     CoreValues,
+    Infrastructure,
 }
