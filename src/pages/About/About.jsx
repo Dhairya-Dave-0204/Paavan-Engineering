@@ -4,6 +4,7 @@ import {
   CompanyOverview,
   CoreValues,
   Infrastructure,
+  AboutCTA
 } from "../../components/component_index";
 
 function About() {
@@ -13,6 +14,7 @@ function About() {
       <CompanyOverview />
       <CoreValues />
       <Infrastructure />
+      <AboutCTA />
     </>
   );
 }

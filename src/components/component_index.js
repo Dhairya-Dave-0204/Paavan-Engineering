@@ -12,6 +12,7 @@ import AboutHero from "./About/AboutHero";
 import CompanyOverview from "./About/CompanyOverview";
 import CoreValues from "./About/CoreValues";
 import Infrastructure from "./About/Infrastructure";
+import AboutCTA from "./About/AboutCTA";
 
 export {
     Navbar,
@@ -27,4 +28,5 @@ export {
     CompanyOverview,
     CoreValues,
     Infrastructure,
+    AboutCTA,
 }
