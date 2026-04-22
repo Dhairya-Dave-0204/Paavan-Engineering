@@ -36,9 +36,9 @@ export default function KeyProducts() {
             <div key={index} className="group">
 
               {/* Image */}
-              <div className="w-full h-[320px] overflow-hidden">
+              <div className="w-full h-80 overflow-hidden">
                 <img
-                  src={product.image} // <-- add image
+                  src={product.image}
                   alt={product.title}
                   className="w-full h-full object-cover transition duration-500 group-hover:scale-105"
                 />

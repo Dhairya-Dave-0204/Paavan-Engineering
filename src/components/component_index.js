@@ -5,6 +5,7 @@ import Capabilities from "./Home/Capabilities";
 import AboutPreview from "./Home/AboutPreview";
 import ProductShowcase from "./Home/ProductShowcase";
 import KeyProducts from "./Home/KeyProducts";
+import WhyChooseUs from "./Home/WhyChooseUs";
 
 export {
     Navbar,
@@ -14,4 +15,5 @@ export {
     AboutPreview,
     ProductShowcase,
     KeyProducts,
+    WhyChooseUs,
 }

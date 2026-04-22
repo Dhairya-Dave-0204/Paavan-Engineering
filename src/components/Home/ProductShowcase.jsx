@@ -75,7 +75,7 @@ export default function ProductShowcase() {
                 {/* Image */}
                 <div className="h-52 w-full overflow-hidden">
                   <img
-                    src={product.image} // <-- add image
+                    src={product.image} 
                     alt={product.title}
                     className="w-full h-full object-cover transition duration-500 group-hover:scale-105 image-filter"
                   />
