@@ -9,6 +9,7 @@ import WhyChooseUs from "./Home/WhyChooseUs";
 import FinalCTA from "./Home/FinalCTA";
 
 import AboutHero from "./About/AboutHero";
+import CompanyOverview from "./About/CompanyOverview";
 
 export {
     Navbar,
@@ -21,4 +22,5 @@ export {
     WhyChooseUs,
     FinalCTA,
     AboutHero,
+    CompanyOverview,
 }
