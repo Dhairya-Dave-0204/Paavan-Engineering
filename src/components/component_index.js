@@ -8,6 +8,8 @@ import KeyProducts from "./Home/KeyProducts";
 import WhyChooseUs from "./Home/WhyChooseUs";
 import FinalCTA from "./Home/FinalCTA";
 
+import AboutHero from "./About/AboutHero";
+
 export {
     Navbar,
     Footer,
@@ -18,4 +20,5 @@ export {
     KeyProducts,
     WhyChooseUs,
     FinalCTA,
+    AboutHero,
 }
