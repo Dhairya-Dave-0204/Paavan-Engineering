@@ -61,7 +61,6 @@ export default function WhyChooseUs() {
           ))}
 
         </div>
-
       </div>
     </section>
   );

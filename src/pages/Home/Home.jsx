@@ -5,6 +5,7 @@ import {
   AboutPreview,
   ProductShowcase,
   KeyProducts,
+  WhyChooseUs,
 } from "../../components/component_index";
 
 function Home() {
@@ -15,6 +16,7 @@ function Home() {
       <AboutPreview />
       <ProductShowcase />
       <KeyProducts />
+      <WhyChooseUs />
     </>
   );
 }
