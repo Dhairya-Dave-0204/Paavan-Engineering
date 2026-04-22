@@ -15,6 +15,15 @@ import HeroBg from "./HeroBg.jpeg";
 import Warehouse from "./Warehouse.jpeg";
 import OpenComponent from "./OpenComponent.jpeg";
 import Sparks from "./Sparks.jpeg";
+import Chain from "./Chain.png";
+import CNC from "./CNC.png";
+import Conveyer from "./Conveyer.png";
+import DrawBench from "./DrawBench.png";
+import Pointing from "./Pointing.png";
+import Polishing from "./Polishing.png";
+import PushPointing from "./PushPointing.png";
+import Straightening from "./Straightening.png";
+import Gearbox from "./Gearbox.png";
 
 export {
   Coils1,
@@ -34,4 +43,13 @@ export {
   Warehouse,
   OpenComponent,
   Sparks,
+  Chain,
+  CNC,
+  Conveyer,
+  DrawBench,
+  Pointing,
+  Polishing,
+  Straightening,
+  PushPointing,
+  Gearbox,
 };

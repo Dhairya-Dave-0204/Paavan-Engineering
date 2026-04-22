@@ -75,3 +75,7 @@
   .bg3tone4 { background: var(--gradient-3tone-4); }
   .bg3tone5 { background: var(--gradient-3tone-5); }
 }
+
+.image-filter {
+  filter: brightness(0.95) contrast(1.05);
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Hero, Capabilities, AboutPreview } from "../../components/component_index"
+import { Hero, Capabilities, AboutPreview, ProductShowcase } from "../../components/component_index"
 
 function Home() {
   return (
@@ -7,6 +7,7 @@ function Home() {
       <Hero />
       <Capabilities />
       <AboutPreview />
+      <ProductShowcase />
     </>
   )
 }
