@@ -6,6 +6,7 @@ import AboutPreview from "./Home/AboutPreview";
 import ProductShowcase from "./Home/ProductShowcase";
 import KeyProducts from "./Home/KeyProducts";
 import WhyChooseUs from "./Home/WhyChooseUs";
+import FinalCTA from "./Home/FinalCTA";
 
 export {
     Navbar,
@@ -16,4 +17,5 @@ export {
     ProductShowcase,
     KeyProducts,
     WhyChooseUs,
+    FinalCTA,
 }
