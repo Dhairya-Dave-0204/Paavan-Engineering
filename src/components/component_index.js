@@ -16,6 +16,7 @@ import AboutCTA from "./About/AboutCTA";
 
 import ContactHero from "./Contact/ContactHero";
 import ContactFormSection from "./Contact/ContactFormSection";
+import LocationSection from "./Contact/LocationSection";
 
 export {
     Navbar,
@@ -34,4 +35,5 @@ export {
     AboutCTA,
     ContactHero,
     ContactFormSection,
+    LocationSection,
 }

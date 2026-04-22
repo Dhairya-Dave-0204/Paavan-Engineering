@@ -1,6 +1,6 @@
 export default function ContactFormSection() {
   return (
-    <section className="py-20 lg:py-24 bg-background">
+    <section className="py-20 lg:py-24 bg-gray-50/60">
       <div className="px-6 mx-auto max-w-7xl lg:px-10">
         <div className="grid gap-12 lg:grid-cols-2">
           {/* LEFT: CONTACT INFO */}

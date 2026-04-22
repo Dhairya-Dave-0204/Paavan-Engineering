@@ -20,8 +20,6 @@ export default function ContactHero() {
           Fill out the form below and we'll get back to you
         </p>
       </div>
-
-      <hr className="mx-auto mt-20 text-gray-200 max-w-7xl" />
     </section>
   );
 }
