@@ -14,6 +14,8 @@ import CoreValues from "./About/CoreValues";
 import Infrastructure from "./About/Infrastructure";
 import AboutCTA from "./About/AboutCTA";
 
+import ContactHero from "./Contact/ContactHero";
+
 export {
     Navbar,
     Footer,
@@ -29,4 +31,5 @@ export {
     CoreValues,
     Infrastructure,
     AboutCTA,
+    ContactHero,
 }
