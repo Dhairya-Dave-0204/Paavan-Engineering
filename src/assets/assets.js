@@ -12,6 +12,9 @@ import Machine9 from "./Machine9.jpeg";
 import PaavanLogo from "./PaavanLogo.png";
 import PaavanLogoTransparent from "./PaavanLogoTransparent.png";
 import HeroBg from "./HeroBg.jpeg";
+import Warehouse from "./Warehouse.jpeg";
+import OpenComponent from "./OpenComponent.jpeg";
+import Sparks from "./Sparks.jpeg";
 
 export {
   Coils1,
@@ -28,4 +31,7 @@ export {
   PaavanLogo,
   PaavanLogoTransparent,
   HeroBg,
+  Warehouse,
+  OpenComponent,
+  Sparks,
 };

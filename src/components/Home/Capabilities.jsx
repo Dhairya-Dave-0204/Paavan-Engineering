@@ -19,7 +19,7 @@ export default function Capabilities() {
   ];
 
   return (
-    <section className="border-t border-gray-200 py-14 lg:py-20 bg-background">
+    <section className="border-t border-gray-200 py-14 lg:py-24 bg-background">
       <div className="px-6 mx-auto max-w-7xl lg:px-10">
         <div className="grid grid-cols-2 gap-8 text-center md:grid-cols-4">
           {capabilities.map((item, index) => (
