@@ -10,6 +10,7 @@ import FinalCTA from "./Home/FinalCTA";
 
 import AboutHero from "./About/AboutHero";
 import CompanyOverview from "./About/CompanyOverview";
+import CoreValues from "./About/CoreValues";
 
 export {
     Navbar,
@@ -23,4 +24,5 @@ export {
     FinalCTA,
     AboutHero,
     CompanyOverview,
+    CoreValues,
 }
