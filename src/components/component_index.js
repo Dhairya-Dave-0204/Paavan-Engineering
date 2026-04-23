@@ -19,26 +19,28 @@ import ContactFormSection from "./Contact/ContactFormSection";
 import LocationSection from "./Contact/LocationSection";
 
 import ProductsHero from "./Products/ProductsHero";
-import ProductGrid from "./Products/ProductGrid";``
+import ProductGrid from "./Products/ProductGrid";
+import ProductCategories from "./Products/ProductCategories";
 
 export {
-    Navbar,
-    Footer,
-    Hero,
-    Capabilities,
-    AboutPreview,
-    ProductShowcase,
-    KeyProducts,
-    WhyChooseUs,
-    FinalCTA,
-    AboutHero,
-    CompanyOverview,
-    CoreValues,
-    Infrastructure,
-    AboutCTA,
-    ContactHero,
-    ContactFormSection,
-    LocationSection,
-    ProductsHero,
-    ProductGrid,
-}
+  Navbar,
+  Footer,
+  Hero,
+  Capabilities,
+  AboutPreview,
+  ProductShowcase,
+  KeyProducts,
+  WhyChooseUs,
+  FinalCTA,
+  AboutHero,
+  CompanyOverview,
+  CoreValues,
+  Infrastructure,
+  AboutCTA,
+  ContactHero,
+  ContactFormSection,
+  LocationSection,
+  ProductsHero,
+  ProductGrid,
+  ProductCategories,
+};
