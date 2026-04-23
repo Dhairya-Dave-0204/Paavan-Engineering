@@ -18,6 +18,8 @@ import ContactHero from "./Contact/ContactHero";
 import ContactFormSection from "./Contact/ContactFormSection";
 import LocationSection from "./Contact/LocationSection";
 
+import ProductsHero from "./Products/ProductsHero";
+
 export {
     Navbar,
     Footer,
@@ -36,4 +38,5 @@ export {
     ContactHero,
     ContactFormSection,
     LocationSection,
+    ProductsHero,
 }
