@@ -23,6 +23,7 @@ import ProductGrid from "./Products/ProductGrid";
 import ProductCategories from "./Products/ProductCategories";
 
 import InfrastructureHero from "./Infrastructure/InfrastructureHero";
+import InfrastructureOverview from "./Infrastructure/InfrastructureOverview";
 
 export {
   Navbar,
@@ -46,4 +47,5 @@ export {
   ProductGrid,
   ProductCategories,
   InfrastructureHero,
+  InfrastructureOverview,
 };
