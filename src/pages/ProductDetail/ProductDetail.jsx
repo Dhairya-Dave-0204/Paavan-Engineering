@@ -14,7 +14,7 @@ export default function ProductDetail() {
   // Fallback
   if (!product) {
     return (
-      <div className="py-32 text-center">
+      <div className="py-64 text-center">
         <h2 className="text-2xl font-heading text-dark">Product not found</h2>
         <Link
           to="/products"
