@@ -4,6 +4,7 @@ import {
   InfrastructureOverview,
   MachineryShowcase,
   ProcessSection,
+  InfrastructureCTA,
 } from "../../components/component_index";
 
 function Infrastructure() {
@@ -13,6 +14,7 @@ function Infrastructure() {
       <InfrastructureOverview />
       <MachineryShowcase />
       <ProcessSection />
+      <InfrastructureCTA />
     </>
   );
 }

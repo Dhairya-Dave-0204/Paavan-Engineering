@@ -26,6 +26,7 @@ import InfrastructureHero from "./Infrastructure/InfrastructureHero";
 import InfrastructureOverview from "./Infrastructure/InfrastructureOverview";
 import MachineryShowcase from "./Infrastructure/MachineryShowcase";
 import ProcessSection from "./Infrastructure/ProcessSection";
+import InfrastructureCTA from "./Infrastructure/InfrastructureCTA";
 
 export {
   Navbar,
@@ -52,4 +53,5 @@ export {
   InfrastructureOverview,
   MachineryShowcase,
   ProcessSection,
+  InfrastructureCTA
 };
