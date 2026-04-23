@@ -1,10 +1,11 @@
 import React from "react";
-import { ProductsHero } from "../../components/component_index";
+import { ProductsHero, ProductGrid } from "../../components/component_index";
 
 function Products() {
   return (
     <>
       <ProductsHero />
+      <ProductGrid />
     </>
   );
 }

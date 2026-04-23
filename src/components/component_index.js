@@ -19,6 +19,7 @@ import ContactFormSection from "./Contact/ContactFormSection";
 import LocationSection from "./Contact/LocationSection";
 
 import ProductsHero from "./Products/ProductsHero";
+import ProductGrid from "./Products/ProductGrid";``
 
 export {
     Navbar,
@@ -39,4 +40,5 @@ export {
     ContactFormSection,
     LocationSection,
     ProductsHero,
+    ProductGrid,
 }
