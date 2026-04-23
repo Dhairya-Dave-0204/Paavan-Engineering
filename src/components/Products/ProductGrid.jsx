@@ -4,73 +4,87 @@ import {
   DrawBench,
   Pointing,
   Polishing,
+  PushPointing,
   Straightening,
   Conveyer,
   Chain,
   Coils1,
   CNC,
   Gearbox,
+  Sprocket,
 } from "../../assets/assets";
 
 export default function ProductGrid() {
   const categories = ["All", "Machinery", "Chains", "Carbide", "Components"];
 
   const products = [
-    {
-      title: "Draw Bench Machine",
-      category: "Machinery",
-      image: `${DrawBench}`,
-      slug: "draw-bench-machine",
-    },
-    {
-      title: "Pointing Machine",
-      category: "Machinery",
-      image: `${Pointing}`,
-      slug: "pointing-machine",
-    },
-    {
-      title: "Polishing Machine",
-      category: "Machinery",
-      image: `${Polishing}`,
-      slug: "polishing-machine",
-    },
-    {
-      title: "Straightening Machine",
-      category: "Machinery",
-      image: `${Straightening}`,
-      slug: "straightening-machine",
-    },
-    {
-      title: "Conveyor Stand",
-      category: "Machinery",
-      image: `${Conveyer}`,
-      slug: "conveyor-stand",
-    },
-    {
-      title: "Industrial Chain",
-      category: "Chains",
-      image: `${Chain}`,
-      slug: "industrial-chain",
-    },
-    {
-      title: "Carbide Pellets",
-      category: "Carbide",
-      image: `${Coils1}`,
-      slug: "carbide-pellets",
-    },
-    {
-      title: "CNC Components",
-      category: "Components",
-      image: `${CNC}`,
-      slug: "cnc-components",
-    },
-    {
-      title: "Industrial Gearbox",
-      category: "Components",
-      image: `${Gearbox}`,
-      slug: "industrial-gearbox",
-    },
-  ];
+  {
+    title: "Draw Bench Machine",
+    category: "Machinery",
+    slug: "draw-bench-machine",
+    image: `${DrawBench}`,
+  },
+  {
+    title: "Straightening Machine",
+    category: "Machinery",
+    slug: "straightening-machine",
+    image: `${Straightening}`,
+  },
+  {
+    title: "Push Pointing Machine",
+    category: "Machinery",
+    slug: "push-pointing-machine",
+    image: `${PushPointing}`,
+  },
+  {
+    title: "Pointing Machine",
+    category: "Machinery",
+    slug: "pointing-machine",
+    image: `${Pointing}`,
+  },
+  {
+    title: "Polishing Machine",
+    category: "Machinery",
+    slug: "polishing-machine",
+    image: `${Polishing}`,
+  },
+  {
+    title: "Conveyor Stands",
+    category: "Machinery",
+    slug: "conveyor-stands",
+    image: `${Conveyer}`,
+  },
+  {
+    title: "Industrial Chains",
+    category: "Chains",
+    slug: "industrial-chains",
+    image: `${Chain}`,
+  },
+  {
+    title: "Carbide Pellets",
+    category: "Carbide",
+    slug: "carbide-pellets",
+    image: `${Coils1}`,
+  },
+  {
+    title: "Industrial Sprockets",
+    category: "Components",
+    slug: "industrial-sprockets",
+    image: `${Sprocket}`,
+  },
+  {
+    title: "Gearbox",
+    category: "Components",
+    slug: "gearbox",
+    image: `${Gearbox}`,
+  },
+  {
+    title: "CNC-VMC Components",
+    category: "Components",
+    slug: "cnc-vmc-components",
+    image: `${CNC}`,
+  },
+];
 
   const [activeCategory, setActiveCategory] = useState("All");
 
