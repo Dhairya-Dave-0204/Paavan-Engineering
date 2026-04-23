@@ -1,93 +1,19 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import {
-  DrawBench,
-  Pointing,
-  Polishing,
-  PushPointing,
-  Straightening,
-  Conveyer,
-  Chain,
-  Coils1,
-  CNC,
-  Gearbox,
-  Sprocket,
-} from "../../assets/assets";
+import { productData } from "../../pages/ProductDetail/productData";
 
 export default function ProductGrid() {
   const categories = ["All", "Machinery", "Chains", "Carbide", "Components"];
 
-  const products = [
-  {
-    title: "Draw Bench Machine",
-    category: "Machinery",
-    slug: "draw-bench-machine",
-    image: `${DrawBench}`,
-  },
-  {
-    title: "Straightening Machine",
-    category: "Machinery",
-    slug: "straightening-machine",
-    image: `${Straightening}`,
-  },
-  {
-    title: "Push Pointing Machine",
-    category: "Machinery",
-    slug: "push-pointing-machine",
-    image: `${PushPointing}`,
-  },
-  {
-    title: "Pointing Machine",
-    category: "Machinery",
-    slug: "pointing-machine",
-    image: `${Pointing}`,
-  },
-  {
-    title: "Polishing Machine",
-    category: "Machinery",
-    slug: "polishing-machine",
-    image: `${Polishing}`,
-  },
-  {
-    title: "Conveyor Stands",
-    category: "Machinery",
-    slug: "conveyor-stands",
-    image: `${Conveyer}`,
-  },
-  {
-    title: "Industrial Chains",
-    category: "Chains",
-    slug: "industrial-chains",
-    image: `${Chain}`,
-  },
-  {
-    title: "Carbide Pellets",
-    category: "Carbide",
-    slug: "carbide-pellets",
-    image: `${Coils1}`,
-  },
-  {
-    title: "Industrial Sprockets",
-    category: "Components",
-    slug: "industrial-sprockets",
-    image: `${Sprocket}`,
-  },
-  {
-    title: "Gearbox",
-    category: "Components",
-    slug: "gearbox",
-    image: `${Gearbox}`,
-  },
-  {
-    title: "CNC-VMC Components",
-    category: "Components",
-    slug: "cnc-vmc-components",
-    image: `${CNC}`,
-  },
-];
-
   const [activeCategory, setActiveCategory] = useState("All");
 
+  // Convert object → array
+  const products = Object.entries(productData).map(([slug, product]) => ({
+    slug,
+    ...product,
+  }));
+
+  // Filter logic
   const filteredProducts =
     activeCategory === "All"
       ? products
@@ -102,7 +28,7 @@ export default function ProductGrid() {
             <button
               key={index}
               onClick={() => setActiveCategory(cat)}
-              className={`px-4 py-2 text-sm font-body cursor-pointer transition ${
+              className={`px-4 py-2 text-sm font-body transition ${
                 activeCategory === cat
                   ? "bg-primary text-white"
                   : "border border-gray-300 text-dark hover:border-primary hover:text-primary"
@@ -115,9 +41,9 @@ export default function ProductGrid() {
 
         {/* GRID */}
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-          {filteredProducts.map((product, index) => (
+          {filteredProducts.map((product) => (
             <Link
-              key={index}
+              key={product.slug}
               to={`/products/${product.slug}`}
               className="block group"
             >

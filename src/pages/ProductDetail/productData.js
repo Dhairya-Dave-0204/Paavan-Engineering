@@ -143,7 +143,7 @@ export const productData = {
   "carbide-pellets": {
     title: "Carbide Pellets",
     category: "Carbide",
-    image: `${Carbide}`,
+    image: `${Coils1}`,
     description:
       "High-performance carbide pellets designed for wear resistance and long-lasting durability in demanding applications.",
     features: [
