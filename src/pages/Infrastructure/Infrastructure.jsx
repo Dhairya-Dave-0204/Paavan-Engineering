@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import { InfrastructureHero } from "../../components/component_index";
 
 function Infrastructure() {
   return (
-    <div>Infrastructure</div>
-  )
+    <>
+      <InfrastructureHero />
+    </>
+  );
 }
 
-export default Infrastructure
+export default Infrastructure;

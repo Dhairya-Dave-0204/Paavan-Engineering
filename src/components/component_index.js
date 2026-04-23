@@ -22,6 +22,8 @@ import ProductsHero from "./Products/ProductsHero";
 import ProductGrid from "./Products/ProductGrid";
 import ProductCategories from "./Products/ProductCategories";
 
+import InfrastructureHero from "./Infrastructure/InfrastructureHero";
+
 export {
   Navbar,
   Footer,
@@ -43,4 +45,5 @@ export {
   ProductsHero,
   ProductGrid,
   ProductCategories,
+  InfrastructureHero,
 };
