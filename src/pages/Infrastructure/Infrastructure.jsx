@@ -2,6 +2,7 @@ import React from "react";
 import {
   InfrastructureHero,
   InfrastructureOverview,
+  MachineryShowcase,
 } from "../../components/component_index";
 
 function Infrastructure() {
@@ -9,6 +10,7 @@ function Infrastructure() {
     <>
       <InfrastructureHero />
       <InfrastructureOverview />
+      <MachineryShowcase />
     </>
   );
 }

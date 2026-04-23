@@ -24,6 +24,7 @@ import ProductCategories from "./Products/ProductCategories";
 
 import InfrastructureHero from "./Infrastructure/InfrastructureHero";
 import InfrastructureOverview from "./Infrastructure/InfrastructureOverview";
+import MachineryShowcase from "./Infrastructure/MachineryShowcase";
 
 export {
   Navbar,
@@ -48,4 +49,5 @@ export {
   ProductCategories,
   InfrastructureHero,
   InfrastructureOverview,
+  MachineryShowcase,
 };
