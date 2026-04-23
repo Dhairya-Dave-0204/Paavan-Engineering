@@ -3,6 +3,7 @@ import About from "./About/About";
 import Contact from "./Contact/Contact";
 import Products from "./Products/Products";
 import ProductDetail from "./ProductDetail/ProductDetail";
+import Infrastructure from "./Infrastructure/Infrastructure";
 
 export {
     Home,
@@ -10,4 +11,5 @@ export {
     Contact,
     Products,
     ProductDetail,
+    Infrastructure,
 }

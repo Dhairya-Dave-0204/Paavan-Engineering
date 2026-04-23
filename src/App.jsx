@@ -6,6 +6,7 @@ import {
   Contact,
   Products,
   ProductDetail,
+  Infrastructure,
 } from "./pages/page_index";
 import { Navbar, Footer } from "./components/component_index";
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/products" element={<Products />} />
         <Route path="/products/:slug" element={<ProductDetail />} />
+        <Route path="/infrastructure" element={<Infrastructure />} />
       </Routes>
       <Footer />
     </>
