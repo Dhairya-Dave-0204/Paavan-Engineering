@@ -21,20 +21,22 @@ export default function Capabilities() {
   return (
     <section className="border-t border-gray-200 py-14 lg:py-24 bg-background">
       <div className="px-6 mx-auto max-w-7xl lg:px-10">
-        <div className="grid grid-cols-2 gap-8 text-center md:grid-cols-4">
+        <div className="grid grid-cols-2 gap-6 md:grid-cols-4">
           {capabilities.map((item, index) => (
             <div
               key={index}
-              className="flex flex-col items-center justify-center gap-3 group"
+              className="flex flex-col items-center justify-center gap-3 p-6 transition-all duration-300 border border-gray-200 group hover:border-primary hover:bg-gray-50 hover:-translate-y-1"
             >
               {/* Icon */}
-              <div className="text-3xl transition-transform duration-300 text-primary group-hover:scale-110">
+              <div className="text-3xl transition-transform duration-300 text-primary group-hover:scale-105">
                 <i className={item.icon}></i>
               </div>
 
               {/* Title */}
-              <h3 className="relative text-sm tracking-wide font-body md:text-base text-dark">
+              <h3 className="relative text-sm tracking-wide md:text-base font-body text-dark">
                 {item.title}
+
+                {/* Underline (PRIMARY INTERACTION) */}
                 <span className="absolute left-0 w-0 h-px transition-all duration-300 -bottom-1 bg-primary group-hover:w-full"></span>
               </h3>
             </div>
