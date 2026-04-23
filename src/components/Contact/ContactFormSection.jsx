@@ -36,7 +36,7 @@ export default function ContactFormSection() {
           </div>
 
           {/* RIGHT: FORM */}
-          <div>
+          <div id="contact-form">
             <form className="space-y-6">
               {/* Name */}
               <div>
