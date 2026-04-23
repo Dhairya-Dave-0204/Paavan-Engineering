@@ -3,6 +3,7 @@ import {
   InfrastructureHero,
   InfrastructureOverview,
   MachineryShowcase,
+  ProcessSection,
 } from "../../components/component_index";
 
 function Infrastructure() {
@@ -11,6 +12,7 @@ function Infrastructure() {
       <InfrastructureHero />
       <InfrastructureOverview />
       <MachineryShowcase />
+      <ProcessSection />
     </>
   );
 }
