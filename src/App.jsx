@@ -7,6 +7,7 @@ import {
   Products,
   ProductDetail,
   Infrastructure,
+  WhatsAppButton
 } from "./pages/page_index";
 import { Navbar, Footer } from "./components/component_index";
 
@@ -22,6 +23,7 @@ function App() {
         <Route path="/products/:slug" element={<ProductDetail />} />
         <Route path="/infrastructure" element={<Infrastructure />} />
       </Routes>
+      <WhatsAppButton />
       <Footer />
     </>
   );
