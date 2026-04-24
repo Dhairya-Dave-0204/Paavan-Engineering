@@ -18,7 +18,7 @@ import Sparks from "./Sparks.jpeg";
 import Chain from "./Chain.png";
 import CNC from "./CNC.png";
 import Conveyer from "./Conveyer.png";
-import DrawBench from "./DrawBench.png";
+import DrawBench from "./Drawbench.png";
 import Pointing from "./Pointing.png";
 import Polishing from "./Polishing.png";
 import PushPointing from "./PushPointing.png";
