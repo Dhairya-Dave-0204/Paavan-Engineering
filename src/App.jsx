@@ -7,7 +7,8 @@ import {
   Products,
   ProductDetail,
   Infrastructure,
-  WhatsAppButton
+  WhatsAppButton,
+  ScrollToTop,
 } from "./pages/page_index";
 import { Navbar, Footer } from "./components/component_index";
 
@@ -15,6 +16,7 @@ function App() {
   return (
     <>
       <Navbar />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

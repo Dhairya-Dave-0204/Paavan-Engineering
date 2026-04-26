@@ -5,6 +5,7 @@ import Products from "./Products/Products";
 import ProductDetail from "./ProductDetail/ProductDetail";
 import Infrastructure from "./Infrastructure/Infrastructure";
 import WhatsAppButton from "./WhatsAppButton/WhatsAppButton";
+import ScrollToTop from "./ScrollToTop/ScrollToTop";
 
 export {
     Home,
@@ -13,5 +14,6 @@ export {
     Products,
     ProductDetail,
     Infrastructure,
-    WhatsAppButton
+    WhatsAppButton,
+    ScrollToTop,
 }
