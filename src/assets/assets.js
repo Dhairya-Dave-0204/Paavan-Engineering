@@ -23,7 +23,7 @@ import Pointing from "./Pointing.png";
 import Polishing from "./Polishing.png";
 import PushPointing from "./PushPointing.png";
 import Straightening from "./Straightening.png";
-import Gearbox from "./Gearbox.png";
+import Gearbox from "./Gearbox.jpeg";
 import Sprocket from "./Sprocket.png";
 
 export {
