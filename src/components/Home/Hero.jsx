@@ -21,7 +21,7 @@ export default function Hero() {
 
       {/* Content */}
       <div className="w-full px-6 mx-auto max-w-7xl lg:px-10">
-        <div className="max-w-3xl">
+        <div className="max-w-3xl mx-auto text-center">
           {/* Tagline */}
           <p className="mb-4 text-sm tracking-wide font-body text-primary">
             30+ Years of Engineering Excellence
@@ -33,14 +33,14 @@ export default function Hero() {
           </h1>
 
           {/* Description */}
-          <p className="max-w-xl mt-6 text-base leading-relaxed text-gray-200 font-body sm:text-lg">
+          <p className="max-w-xl mx-auto mt-6 text-base leading-relaxed text-gray-200 font-body sm:text-lg">
             Precision-engineered machinery, industrial chains, and carbide
             components designed for durability, performance, and long-term
             reliability.
           </p>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col gap-4 mt-8 sm:flex-row">
+          <div className="flex flex-col items-center gap-4 mt-8 sm:flex-row sm:justify-center">
             <Link
               to="/contact"
               className="px-6 py-3 text-sm tracking-wide text-center text-white transition duration-300 bg-primary font-body hover:opacity-90"
