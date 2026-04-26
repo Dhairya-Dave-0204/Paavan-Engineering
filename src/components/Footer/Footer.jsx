@@ -25,7 +25,7 @@ export default function Footer() {
                 <li>
                   <Link
                     to="/"
-                    className="text-sm text-gray-300 transition font-body hover:text-primary"
+                    className="text-sm text-gray-300 transition duration-300 font-body hover:text-primary"
                   >
                     Home
                   </Link>
@@ -33,7 +33,7 @@ export default function Footer() {
                 <li>
                   <Link
                     to="/about"
-                    className="text-sm text-gray-300 transition font-body hover:text-primary"
+                    className="text-sm text-gray-300 transition duration-300 font-body hover:text-primary"
                   >
                     About
                   </Link>
@@ -41,7 +41,7 @@ export default function Footer() {
                 <li>
                   <Link
                     to="/products"
-                    className="text-sm text-gray-300 transition font-body hover:text-primary"
+                    className="text-sm text-gray-300 transition duration-300 font-body hover:text-primary"
                   >
                     Products
                   </Link>
@@ -49,7 +49,7 @@ export default function Footer() {
                 <li>
                   <Link
                     to="/infrastructure"
-                    className="text-sm text-gray-300 transition font-body hover:text-primary"
+                    className="text-sm text-gray-300 transition duration-300 font-body hover:text-primary"
                   >
                     Infrastructure
                   </Link>
@@ -57,7 +57,7 @@ export default function Footer() {
                 <li>
                   <Link
                     to="/contact"
-                    className="text-sm text-gray-300 transition font-body hover:text-primary"
+                    className="text-sm text-gray-300 transition duration-300 font-body hover:text-primary"
                   >
                     Contact
                   </Link>
@@ -113,13 +113,13 @@ export default function Footer() {
             <div className="flex items-center gap-6">
               <Link
                 to="/"
-                className="text-sm text-gray-400 transition hover:text-primary"
+                className="text-sm text-gray-400 transition duration-300 hover:text-primary"
               >
                 Privacy Policy
               </Link>
               <Link
                 to="/"
-                className="text-sm text-gray-400 transition hover:text-primary"
+                className="text-sm text-gray-400 transition duration-300 hover:text-primary"
               >
                 Terms of Service
               </Link>
