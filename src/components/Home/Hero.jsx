@@ -48,12 +48,13 @@ export default function Hero() {
               Request a Quote
             </Link>
 
-            <Link
-              to="/products"
+            <a
+              href="/Paavan_Catalog.pdf"
+              download
               className="px-6 py-3 text-sm tracking-wide text-center text-white transition duration-300 border border-white font-body hover:bg-white hover:text-dark"
             >
-              View Products
-            </Link>
+              <i className="mr-2 ri-download-line"></i> Download Brochure
+            </a>
           </div>
         </div>
       </div>
